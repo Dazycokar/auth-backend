@@ -16,7 +16,7 @@ const SECRET_KEY = process.env.JWT_SECRET;
 
 // Middleware to enable Cross-Origin Resource Sharing for all routes
 app.use(cors({
-  https://myauthenticationapp.onrender.com
+  origin: 'https://myauthenticationapp.onrender.com'
     }));
 
 // Middleware to parse incoming JSON request bodies
